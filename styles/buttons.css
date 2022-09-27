@@ -1,0 +1,103 @@
+.btn-primary{
+    font-family: 'Teko';
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;  
+    padding:15px 25px 15px 25px;
+    transition: 0,4s;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #181818;
+    border-color: #181818;
+    transition: 0,5s;
+}
+
+.btn-secondary{
+    font-family: 'Teko';
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;  
+    padding:15px 45px 15px 45px;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #181818;
+    border-color: #181818;
+}
+
+
+.btn-dark{
+    font-style: normal;
+    font-family: 'Nunuto';
+    background-color: transparent;
+    text-transform: uppercase;
+    outline: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#btn-back-to-top {
+    font-size: 12px;
+    background-color: transparent;
+    border-color: transparent;
+    border:none;
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
+    display: none;
+    padding: 0;
+    border-bottom: 2px solid #ffffff;
+}
+#btn-back-to-top-dark {
+    font-size: 12px;
+    background-color: transparent;
+    border-color: transparent;
+    border:none;
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
+    display: none;
+    padding: 0;
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+/*
+#btn-back-to-top:active{
+    border-color: transparent;
+}
+*/
+.btn-dark:active{
+    color: none;
+}
+
+#btn-back-to-top:focus{
+    border-color:none;
+}
+@media (min-width: 993px) and (max-width: 1920px) {
+    .btn-primary{
+        font-family: 'Teko';
+        border: 2px solid #ffffff;
+        border-radius: 0;
+        text-align: center;
+        background-color: transparent;
+        text-transform: uppercase;  
+        padding:20px 30px 20px 30px;
+        transition: 0.5s;
+    }
+    .btn-primary:hover {
+        transition: 1,5s;
+    }
+    .btn-secondary{
+        padding:15px 50px 15px 50px;
+    }
+    #btn-back-to-top {
+        font-size: 15px;
+    }
+  }

@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Achivio;
+    src: url('../fonts/Archivo-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: Nunuto;
+    src: url('../fonts/Nunito-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Teko;
+    src: url('../fonts/Teko-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url('../fonts/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: TekoBold;
+    src: url('../fonts/Teko-Bold.ttf');
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    color: #ffffff;
+    font-family: Teko;
+}
+
+.heading{
+    font-family: Achivio;
+    font-weight: bold;
+}
+
+.bold-text{
+    font-weight: 900;
+}
+
+.teko-bold{
+    font-family: TekoBold;
+}
+
+.paragraph-text{
+    color: #cfcfcf;
+    font-family: Nunuto;
+}
+
+
+.paragraph-text-sm{
+    color: #cfcfcf;
+    font-family: Nunuto;
+    font-size: 12px;
+}
+
+@media (min-width: 993px) and (max-width: 1920px) {
+    .h1{
+        font-size: 48px;
+    }
+    .h2{
+        font-size: 39px;
+    }
+    .h3{
+        font-size: 31px;
+    }
+    .h4{
+        font-size: 25px;
+    }
+    .h5{
+        font-size: 20px;
+    }
+    .h6{
+        font-size: 16px;
+    }
+    .paragraph-text{
+        font-size:30px;
+    }
+    .paragraph-text-sm{
+        font-size: 18px;
+    }
+    .paragraph-text-md {
+        color: #000000;
+        font-family: Nunuto;
+        font-size: 27px;
+    }
+  }

@@ -1,0 +1,104 @@
+
+body{
+    background-color: #181818;
+}
+
+.card-title-text {
+    font-family: Montserrat-ExtraBold;
+}
+
+.hr{
+    color: #ffffff;
+    width: 100px;
+    height: 100px;;
+    border-top: 2px solid #ffffff;
+    opacity: 100%;
+}
+
+.hr-black{
+    width: 100px;
+    height: 100px;;
+    border-top: 2px solid #000000;
+    opacity: 100%;
+}
+
+.hr-md{
+    width: 60px;
+    color: #ffffff;
+    border-top: 2px solid #ffffff;
+    opacity: 100%;
+     
+}
+
+.hr-md-black{
+    width: 60px;
+    border-top: 2px solid #000000;
+    opacity: 100%;
+    
+}
+
+
+.hr-sm{
+    width: 40px;
+    color: #ffffff;
+    border-top: 2px solid #ffffff;
+    opacity: 100%;
+    margin: 0;
+}
+
+.opacity-fix{
+    opacity: 100%!important;
+}
+
+.decoration-none{
+    text-decoration: none;
+}
+
+.contact-section{
+    background-color:#222222;
+    padding: 55px 16px 55px 16px;
+}
+
+.form-control{
+    background-color: #e5e5e5;
+    border-radius: 0;
+}
+
+.footer-section{
+    padding: 40px 10px 40px 10px;
+}
+
+.footer-icons{
+    width: 28px;
+    height: 28px;
+    
+}
+
+.vertical-align{
+    vertical-align: middle;
+}
+
+.case-study-bg-1{
+    background-image: url('../media/case-study.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.case-study-bg-2{
+    background-image: url('../media/cs2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.case-study-bg-3{
+    background-image: url('../media/cs3.2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.case-study-w{
+    background-color: #ffffff;
+}

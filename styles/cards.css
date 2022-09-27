@@ -1,0 +1,36 @@
+.card-1 {
+    background-image: url('../media/case-study.png');
+    /*object-fit: cover;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    border: none;
+    border-radius: 0;
+}
+
+.card-2 {
+    background-image: url('../media/cs2.png');
+    /*object-fit: cover;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    border: none;
+    border-radius: 0;
+}
+
+.card-3 {
+    background-image: url('../media/cs3.2.png');
+    /*object-fit: cover;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    border: none;
+    border-radius: 0;
+}
+
+.card-body{
+    padding: 40px 16px 40px 16px;
+}
