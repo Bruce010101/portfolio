@@ -99,6 +99,18 @@ body{
     background-size: cover;
 }
 
+.case-study-bg-4{
+    background-image: url('../media/cs444.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .case-study-w{
     background-color: #ffffff;
+}
+
+.icon-size{
+    width:15%;
+    height: auto;
 }
