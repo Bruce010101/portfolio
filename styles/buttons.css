@@ -9,6 +9,11 @@
     transition: 0,4s;
 }
 
+.btn-primary:active {
+    background-color: transparent!important;
+    border: 2px solid #ffffff!important;
+}
+
 .btn-primary:hover {
     color: #ffffff;
     background-color: #181818;
