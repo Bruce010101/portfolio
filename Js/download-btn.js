@@ -1,5 +1,5 @@
-const btn = document.querySelector('.btn-download');
-
-btn.addEventListener('click', () => {
-  btn.innerText = "Downloaded ✓";
+document.querySelectorAll('.btn-download').forEach(btn => {
+  btn.addEventListener('click', function () {
+    this.innerText = "Downloaded ✓";
+  });
 });
